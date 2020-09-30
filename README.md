@@ -28,9 +28,9 @@ And the following external software is required to be install and in your $PATH:
 * HYBRID-LAMBDA: https://github.com/hybridLambda/hybrid-Lambda  
 
 These two software packages can also be found in the https://github.com/radamsRHA/SpeciesTopoTestR/inst/extdata directory.   
-For OSX (mac) this means that the executable `stells-v2-1-0-1-mac` must be installed and in your path.  
-For linux, the executable `stells-v2-1-0-1-linux64` must be installed and in your path.   
-Additionally, the executable `hybrid-Lambda` must also be in your path if you want to test network hybridizations. 
+* For OSX (mac) this means that the executable `stells-v2-1-0-1-mac` must be installed and in your path.    
+* For linux, the executable `stells-v2-1-0-1-linux64` must be installed and in your path.     
+* Additionally, the executable `hybrid-Lambda` must also be in your path if you want to test network hybridizations.   
 
 This can also be added manually to the `$PATH` using the following example command lines (opening the terminal and typing the following commands):  
 
@@ -189,6 +189,8 @@ RESULTS$numeric.pValue
 SpeciesTopoTestR uses the same format as the program PHYLONET (https://bioinfocs.rice.edu/phylonet) for network-based species topologies. Instead of placing network topologies in a `multiPhylo` list object, we simply uses the strings describing the topologies. 
 
 We can use the following example by placing two topology strings `string.SpeciesNetwork` and `string.SpeciesNetwork_2` into a single list `list.SpeciesTopologies`:
+
+**Warning: The SOWH* test can be much slower with Networks than strictly bifurcating trees because of the number of possible locations for reticulations**  
 
 ```
 ####################################
