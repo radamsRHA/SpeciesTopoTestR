@@ -53,7 +53,6 @@ We can use `Conduct.SpeciesTopoTestR` with option "KH" to run the KH* test for a
 # Load depends #
 ################
 library(ape)
-library(phytools)
 library(SpeciesTopoTestR)
 ```
 
