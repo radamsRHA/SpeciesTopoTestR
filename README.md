@@ -1,7 +1,7 @@
 
 ---
 # SpeciesTopoTestR: Likelihood-based hypothesis tests of species topologies in R
-**NOTE See the file https://github.com/radamsRHA/SpeciesTopoTestR/blob/master/SpeciesTopoTestR.pdf for details of each function (and other utilities of SpeciesTopoTestR**
+**NOTE See the file https://github.com/radamsRHA/SpeciesTopoTestR/blob/master/SpeciesTopoTestR.pdf for details of each function (and other utilities of SpeciesTopoTestR. Additionally, check out the algorithm detials in the file https://github.com/radamsRHA/SpeciesTopoTestR/blob/master/_SupplementaryFigures_1Oct2020a.pdf**
 
 ## Installing R package SpeciesTopoTestR from github
 The R package SpeciesTopoTestR is freely available to download and distribute from github <https://github.com/radamsRHA/SpeciesTopoTestR/>. To install and load SpeciesTopoTestR, you must first install the R package `devtools`, 
